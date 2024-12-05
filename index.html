@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+    
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="Images/Noel profile.jpg"><img src="Images/Noel profile.jpg" alt="Nsimbi NF" width="80"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My Name is Nsimbi Noel Frdereick a passionate computer scientist with various skillsets and experience in the field of computer,software and IT based engineering.</p>
+            <p>My experience in the various skills ranges from a vast amount of knowledge attained from the various institutes attended
+                for example: Uganda Martyr's University, ICDL and MIT in the US.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Project 1:</strong> Cyber Security.
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images/Forensics.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">I am currently working on improving overall security in various Ugandan companies regarding their data.</p>
+                        </div>
+                      </div> 
+                    </li>
+                <li><strong>Project 2:</strong> Internet Banking.
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images/Bank.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">I am well affiliated with many commercial banks in Uganda therefore educating more and more in use of internet in their fields. </p>
+                        </div>
+                      </div>
+                    </li>
+                <li><strong>Project 3:</strong> Education.
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images/images (1).jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Getting more and more schools affiliated with the use of technology .</p>
+                        </div>
+                      </div> 
+                    </li>
+            </ul>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Images/20240813_211940.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/20241112_123555.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/Oil and gas.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email at <a href="nsimbi.noel@stud.umu.ac.ug">noelnf@gmail.com</a>.</p>
+            <p>I can also be accessed via telephone on: 0786544904</p>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="input your name" class="form-label">Name</label>
+                  <input type="name" class="form-control" id="input your name">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <input type="message" class="form-control" id="input your message">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
